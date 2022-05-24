@@ -17,7 +17,6 @@ Make the game Tic-Tac-Toe using HTML, CSS, and JavaScript!
 
 1. Read through and fulfill the listed requirements.
 1. You will create a new repo on your GitHub account for this project.
-1. Submit this project with an issue on this repo.
 
 ## Requirements
 
@@ -27,7 +26,7 @@ the technical skills you've learned in class, you'll practice scoping out a
 large project, breaking it into smaller pieces, and working towards those goals
 in sequence.
 
-You're going to build your Tic-Tac-Toe game in two phases! We'll define the
+You're going to build your Tic-Tac-Toe game in two phases! We've define the
 goals for each phase, but you should break these down into even smaller steps.
 
 ### Phase 1: Player-scored Version
@@ -77,12 +76,6 @@ also have to update some representation of the gameboard in your game code.
 - Use a form to get each user's name before the round and substitute the user's
   name in the game messaging (i.e., display something like "Chris' turn" or "Pam
   won").
-
-## Plagiarism
-
-Take a moment to refamiliarize yourself with the
-[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
-Plagiarized work will not be accepted.
 
 ## [License](LICENSE)
 
