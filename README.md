@@ -22,7 +22,7 @@ Make the game Tic-Tac-Toe using HTML, CSS, and JavaScript!
 ## Requirements
 
 Your goal is to build a working version of Tic-Tac-Toe. This is to get you ready
-to build out a more complex game for your project so in addition to practicing
+to build out your project 1 so in addition to practicing
 the technical skills you've learned in class, you'll practice scoping out a
 large project, breaking it into smaller pieces, and working towards those goals
 in sequence.
