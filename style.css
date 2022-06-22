@@ -1,0 +1,25 @@
+.game-board-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-height: 60vh;
+    max-width: 60vw;
+}
+
+.square {
+    height: 18vh;
+    width: 18vw;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+.mark {
+    font-size: 12rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
