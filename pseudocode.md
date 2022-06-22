@@ -25,18 +25,28 @@ create a board with 9 squares separated by two vertical lines and two horizontal
             winCondition array
             player array
             currentPlayer, infoMessage, winMessage
+            square array
 
             player object
                 mark
                 wins
                 name
             
+        DOM Elements
+            .message
+            .current-player-label
+            .game-board-container
+            .square (select all and store in array)
+            .reset-button
 
         delegated event listener for board container
-            check if clicked class exists on the target
+            check if 
+                clicked class exists on the target
                 display error message
-            else add x or o based on currentPlayer
-            move to next turn
+            else 
+                add x or o based on currentPlayer
+                // update corresponding state variable
+                move to next turn
 
         event listener for reset button
             handler runs init() to reset the game
