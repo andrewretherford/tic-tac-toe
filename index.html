@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <!-- victory message -->
+        <div class="victory-message-container hide">
+            <p class="victory-message"></p>
+            <p class="win-count"></p>
+        </div>
+        <!-- information message box -->
+        <div class="message-container">
+            <p class="message">message</p>
+        </div>
+        <!-- current player display -->
+        <div class="current-player-label-container">
+            <p class="current-player-label">player</p>
+        </div>
+        <!-- game board -->
+        <div class="game-board-container">
+            <div class="square 1">
+                <p class="mark">1</p>
+            </div>
+            <div class="square 2">
+                <p class="mark">2</p>
+            </div>
+            <div class="square 3">
+                <p class="mark">3</p>
+            </div>
+            <div class="square 4">
+                <p class="mark">4</p>
+            </div>
+            <div class="square 5">
+                <p class="mark">5</p>
+            </div>
+            <div class="square 6">
+                <p class="mark">6</p>
+            </div>
+            <div class="square 7">
+                <p class="mark">7</p>
+            </div>
+            <div class="square 8">
+                <p class="mark">8</p>
+            </div>
+            <div class="square 9">
+                <p class="mark">9</p>
+            </div>
+        </div>
+        <!-- name input -->
+        <div class="name-input-container">
+            <label for="name-input-box" class="name-input-label">Your Name</label>
+            <input type="text" id="name-input-box">
+            <button class="name-input-button">OK</button>
+        </div>
+        <!-- reset button -->
+        <div class="reset-button-container hide">
+            <button class="reset-button">Play Again</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

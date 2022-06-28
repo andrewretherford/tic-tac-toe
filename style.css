@@ -1,0 +1,24 @@
+* {
+    /* background-color: rgb(0,100,0,.1); */
+  }
+
+.game-board-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: auto;
+    width: 60vw;
+}
+
+.square {
+    height: 19vh;
+    width: 19vw;
+    background-color: lightgray;
+    border: solid black 1px;
+    font-size: 12rem;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
