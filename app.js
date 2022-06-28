@@ -180,7 +180,7 @@ function render() {
     message.innerText = infoMessage
     victoryMessage.innerText = winMessage
     for(let i=0; i < boardState.length; i++) {
-        square[i].innerText = boardState[i]
+        square[i].innerHTML = boardState[i]
     }
 }
 

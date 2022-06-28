@@ -4,11 +4,11 @@ create a board with 9 squares separated by two vertical lines and two horizontal
 
     HTML
         div container class="message"
-            p for communicating with the players
+           p for communicating with the players
         div container
             text displaying current player
                 shows current player
-        div container
+        # div container
             9 divs sorted in a 3 x 3 grid
                 class to designate if a square has been clicked
         div container
